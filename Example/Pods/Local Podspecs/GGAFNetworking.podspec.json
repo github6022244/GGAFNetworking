@@ -1,0 +1,22 @@
+{
+  "name": "GGAFNetworking",
+  "version": "0.1.0",
+  "summary": "A short description of GGAFNetworking.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/15991163/GGAFNetworking",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "15991163": "1563084860@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/15991163/GGAFNetworking.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "GGAFNetworking/Classes/**/*"
+}
