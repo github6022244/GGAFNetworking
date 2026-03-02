@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		11A5B143997F982D610905C2 /* GGAFNetworking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GGAFNetworking.podspec; path = ../GGAFNetworking.podspec; sourceTree = "<group>"; };
-		1542D5DD758640F4D3B8B205 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		11A5B143997F982D610905C2 /* GGAFNetworking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GGAFNetworking.podspec; path = ../GGAFNetworking.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1542D5DD758640F4D3B8B205 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2FF5FE92CA266508DD471198 /* Pods_GGAFNetworking_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GGAFNetworking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58F467E0E55FAA50BE65CDDA /* Pods-GGAFNetworking_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGAFNetworking_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GGAFNetworking_Tests/Pods-GGAFNetworking_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* GGAFNetworking_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GGAFNetworking_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,7 +60,7 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6DD24D7B362DC7543BDDB966 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6DD24D7B362DC7543BDDB966 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E83CDA04891A03D3DA9EA06 /* Pods-GGAFNetworking_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGAFNetworking_Tests.release.xcconfig"; path = "Target Support Files/Pods-GGAFNetworking_Tests/Pods-GGAFNetworking_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -193,7 +193,6 @@
 				58F467E0E55FAA50BE65CDDA /* Pods-GGAFNetworking_Tests.debug.xcconfig */,
 				7E83CDA04891A03D3DA9EA06 /* Pods-GGAFNetworking_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -249,6 +248,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = 15991163;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = G738ZT7H2Q;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -259,6 +261,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -513,6 +516,7 @@
 			baseConfigurationReference = E2FB56621588157D11812464 /* Pods-GGAFNetworking_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G738ZT7H2Q;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GGAFNetworking/GGAFNetworking-Prefix.pch";
 				INFOPLIST_FILE = "GGAFNetworking/GGAFNetworking-Info.plist";
@@ -529,6 +533,7 @@
 			baseConfigurationReference = DE17ED72187B8227FF4C1C1C /* Pods-GGAFNetworking_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G738ZT7H2Q;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GGAFNetworking/GGAFNetworking-Prefix.pch";
 				INFOPLIST_FILE = "GGAFNetworking/GGAFNetworking-Info.plist";
