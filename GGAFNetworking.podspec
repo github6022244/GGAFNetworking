@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GGAFNetworking'
-  s.version          = '0.1.5'
+  s.version          = '1.1.0'
   s.summary          = '基于AFNetworking 4.0.1 版本完善'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  基于AFNetworking 4.0.1 版本修改，添加PrivacyInfo.xcprivacy
+  基于AFNetworking 4.0.1 版本修改，添加PrivacyInfo.xcprivacy、适配iOS26
                        DESC
 
   s.homepage         = 'https://github.com/github6022244/GGAFNetworking.git'
